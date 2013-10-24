@@ -11,46 +11,25 @@ void main()
     do {
         printf("Inserire il nr di primi:");
         scanf("%d", &nPrimi);
-    } while(n < nPrimi);
+    } while(nPrimi < 1);
 
-    n = 1;
+    n = 2;
     j = 1;
-    
-    while (j <= nPrimi) {
-        // qui inizia il blocco di codice per valutare se n è primo
-        primo = 1;
-        
-        i = 2; // non devo controllare 1 perché uno divide tutti
-        
-        /*
-          così facendo quando n è 1 non entro nel ciclo e concludo
-          correttamente che 1 è primo
-        */
-        while (i <= n/2 && primo == 1) {
-            if(n % i == 0)
-                primo = 0;
-            i++;
-        } // chiude ciclo per cercare i divisori
 
-        /*
-          se la variabile di flag primo è rimasta == 1, allora non è
-          mai capitato n % i == 0, quindi non esiste 2 <= i <= n /2
-          che divide n
-        */
-        if(primo == 1)
-        {
+    while (j <= nPrimi) {
+	//da n/2 a 2 cerco divisori interi
+        for (i = n/2; i >= 2 && n % i != 0; i--);
+
+	//se non sono uscito prima di averli provati tutti vuol dire
+	//che non ho trovato un divisore --> primo
+        if(!(i >= 2)) {
             printf(" %d " , n);
 
-            /*
-              incremento la variabile che conta il numero di primi
-              incontrati
-            */
+	    //conto il numero di numeri primi
             j++;
         }
-        
-        n++; // passo a valutare il prossimo intero,
-        
-        // indipendentemente dal fatto di aver trovato un numero primo o no.
+
+        n++; // passo a valutare il prossimo intero
 
     } // chiude ciclo per cercare nPrimi numeri primi
 

@@ -53,19 +53,27 @@ function [x, rip] = logisticMap(x0, r, lun)
         % con x(length(x)) prendiamo l'ultimo elemento x(n)
         % ovvero x(end), se preferite
         x1 = r * x(length(x)) * (1 - x(length(x)));
-
-        % inserisco l'elemento
-        %
-        % identico a x = [x, x1];
-        x(length(x) + 1) = x1;
+        
+        % Errata corrige:
+        % l'inserimento nella sequenza va fatto dopo.
 
         % controllo se gia` generato
         if any(x == x1)
             % riporto a 1
             rip = 1;
+            
+            % inserisco l'elemento
+            %
+            % identico a x = [x, x1];
+            x(length(x) + 1) = x1;
 
             % ritorno immediatamente
             return;
+        else
+            % inserisco l'elemento
+            %
+            % identico a x = [x, x1];
+            x(length(x) + 1) = x1;
         end
     end
 

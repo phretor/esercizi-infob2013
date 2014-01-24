@@ -1,0 +1,56 @@
+# Created by Octave 3.6.2, Fri Jan 18 14:06:50 2013 CET <phretor@yummy-ng.local>
+# name: M
+# type: sq_string
+# elements: 7
+# length: 5
+ooooo
+# length: 5
+ooooo
+# length: 5
+boooo
+# length: 5
+roooo
+# length: 5
+boooo
+# length: 5
+boooo
+# length: 5
+rrroo
+
+
+# name: turno
+# type: sq_string
+# elements: 1
+# length: 1
+b
+
+
+# name: giocatori
+# type: struct
+# ndims: 2
+ 1 2
+# length: 1
+# name: nome
+# type: cell
+# rows: 1
+# columns: 2
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 8
+Federico
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 9
+Valentina
+
+
+
+
+
+
+

@@ -1,0 +1,419 @@
+# Created by Octave 3.6.2, Fri Jan 18 06:56:14 2013 CET <phretor@yummy-ng.local>
+# name: amici
+# type: struct
+# ndims: 2
+ 1 5
+# length: 2
+# name: nome
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+cras
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 6
+turpis
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 6
+ornare
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+nibh
+
+
+
+
+
+# name: cognome
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 7
+rhoncus
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+erat
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 5
+velit
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 7
+quisque
+
+
+
+
+
+
+
+# name: messaggi
+# type: struct
+# ndims: 2
+ 1 10
+# length: 2
+# name: testo
+# type: cell
+# rows: 1
+# columns: 10
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 49
+Praesent vitae ligula nec orci pretium vestibulum
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 47
+Curabitur quis dui sit amet elit luctus aliquam
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 31
+Vivamus convallis urna id felis
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 37
+Cras aliquam massa ullamcorper sapien
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 27
+Sed accumsan quam ac tellus
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 25
+Nulla porta tempus sapien
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 37
+Cras aliquam massa ullamcorper sapien
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 31
+Vivamus convallis urna id felis
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 37
+Cras aliquam massa ullamcorper sapien
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 35
+Aliquam adipiscing libero vitae leo
+
+
+
+
+
+# name: mittente
+# type: cell
+# rows: 1
+# columns: 10
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 4
+cras
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 7
+rhoncus
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 4
+erat
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 4
+erat
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 4
+erat
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 6
+turpis
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 5
+velit
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 4
+erat
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 4
+erat
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 4
+erat
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 6
+ornare
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: nome
+# type: sq_string
+# elements: 1
+# length: 7
+aliquam
+
+
+# name: cognome
+# type: sq_string
+# elements: 1
+# length: 4
+erat
+
+
+
+
+
+
+
+
+

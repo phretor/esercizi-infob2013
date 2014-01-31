@@ -1,0 +1,32 @@
+Si consideri il seguente programma:
+
+function [ris] = s(n)
+    if n < 1
+        ris = -1;
+    elseif n >= 1 & n <= 4       (*)
+        ris = n;                 (*)
+    else
+        ris = s(n-2) * s(n-4);
+    end
+
+richiamato dal seguente script
+
+    for x = 1:8
+        fprintf("%d, ", s(x));
+    end
+
+    1. Quali risultati vengono stampati a video? Non è necessario calcolare i
+    valori numerici esatti, ma è sufficiente riportare le espressioni
+    artimetiche necessarie per calcolarli.
+
+Si supponga di rimuovere le righe di codice evidenziate da un asterisco:
+
+    2. La terminazione della ricorsione è ancora garantita per ogni valore
+    dell'argomento n? In caso affermativo giustificare brevemente la risposta,
+    in caso negativo riportare almeno un esempio di argomento in cui la
+    ricorsione non termina
+
+    3. Con la modifica apportata quali risultati vengono stampati a video? Non
+    è necessario calcolare i valori numerici esatti, ma è sufficiente riportare
+    le espressioni artimetiche necessarie per calcolarli.  Si forniscano
+    opportune giustificazioni per tutte le risposte.

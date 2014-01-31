@@ -21,7 +21,7 @@ contenenti il seguente codice:
     %fine
 
 
-CiÃ² che accade quando viene interpretato l'assegnamento:
+Ciò che accade quando viene interpretato l'assegnamento:
 
     (1) valori copiati nei parametri
     (2) calcoli

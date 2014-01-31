@@ -1,0 +1,13 @@
+a) Tempo medio = Hit Rate * Hit Time + Miss Rate * Miss Penalty      = 
+               = Hit Rate * Hit Time + (1 - Hit Rate) * Miss Penalty =
+               = 0.75     * 80ns     + 0.25           * 400ns        = 160ns
+
+b) Si risolve per X = Miss Penalty
+
+    0.75 * 80ns + 0.25 * X < 150ns      <->
+    X < (150ns - 0.75 * 80ns) / 0.25    <->
+    X < 360ns
+
+c) La politica 2 (least recently used, LRU) e` la migliore per il principio
+   di localita` temporale. La politica 1 e` in disaccordo con la localita`
+   spaziale.

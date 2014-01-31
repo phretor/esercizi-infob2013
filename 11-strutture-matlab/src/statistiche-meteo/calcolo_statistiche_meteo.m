@@ -1,4 +1,6 @@
-[dati_selezionati, minimo, medio, massimo] = calcolo_statistiche_meteo(dati, city, tipo);
+function [dati_selezionati, minimo, medio, massimo] =
+    calcolo_statistiche_meteo(dati, city, tipo)
+
     indici = [dati.city] == city & [dati.tipo] == tipo;
 
     dati_selezionati = dati(indici);

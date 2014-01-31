@@ -1,0 +1,29 @@
+Esercizio 3 (TdE 24 gennaio 2011)
+
+Un sistema dotato di memoria centrale ha un tempo di accesso ai dati pari a
+150ns. Per poter migliorare il tempo di accesso si decide di aggiungere una
+memoria cache con le seguenti caratteristiche:
+
+    * hit rate 75%
+    * hit time 80ns
+
+Rispondere alle seguenti domande giustificando i risultati con opportuni
+calcoli:
+
+    a) calcolare il tempo medio di accesso ai dati quando il miss penalty e`
+    pari a 400ns
+
+    b) qual e` il valore massimo che deve avere il miss penaalty affinche` la
+    cache offra un vantaggio in termini di prestazioni (cioe` il tempo medio di
+    accesso con la cache sia inferiore a 150ns)?
+
+    c) il progettista della cache deve scegliere tra due diverse politiche da
+    utilizzare quando la cache e` piena:
+
+        Politica 1: cancellare dalla cache il dato che, in memoria centrale, e`
+        piu` vicino all'ultimo dato richiesto
+
+        Politica 2: cancellare dalla cache il dato a cui si e` richiesto
+        accesso meno recentemente.
+
+    quale delle due politiche e` la migliore? Giustificare la risposta.

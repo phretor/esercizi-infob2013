@@ -1,5 +1,5 @@
 % Scrivere un programma che chieda all'utente di inserire una serie di dati
-% contenenti ognuno i seguenti attribut:
+% contenenti ognuno i seguenti attributi:
 %
 %   * citta` (char)
 %   * giorno (intero positivo)
@@ -15,7 +15,7 @@
 %   12
 %   2012
 %   N
-%   10.5.5.5.5
+%   10.5
 %
 % Dopo aver acquisito una certa quantita` di dati, il programma dovra` chiedere
 % all'utente il nome di una citta` e un tipo di misurazione. A questo punto il
@@ -39,9 +39,9 @@ dati = acquisizione_dati_meteo();
 
 % ricerca dati e restituzione min, media, max
 %
-[dati_selezionati, minimo, medio, massimo] = calcolo_statistiche_meteo(dati, city, tipo);
+[dati_selezionati, minimo, medio, massimo] =
+    calcolo_statistiche_meteo(dati, city, tipo);
 
 % stampa a video delle statistiche
 %
-stampa_statistiche(dati_selezionati, city, tipo);
-
+stampa_statistiche(dati_selezionati, city, tipo, minimo, medio, massimo);

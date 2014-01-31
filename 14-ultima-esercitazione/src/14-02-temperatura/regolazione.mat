@@ -1,0 +1,458 @@
+# Created by Octave 3.6.2, Wed Jan 23 00:37:18 2013 CET <phretor@yummy-ng.local>
+# name: regolazione
+# type: struct
+# ndims: 2
+ 1 24
+# length: 3
+# name: ora
+# type: cell
+# rows: 1
+# columns: 24
+# name: <cell-element>
+# type: scalar
+1
+
+
+
+# name: <cell-element>
+# type: scalar
+2
+
+
+
+# name: <cell-element>
+# type: scalar
+3
+
+
+
+# name: <cell-element>
+# type: scalar
+4
+
+
+
+# name: <cell-element>
+# type: scalar
+5
+
+
+
+# name: <cell-element>
+# type: scalar
+6
+
+
+
+# name: <cell-element>
+# type: scalar
+7
+
+
+
+# name: <cell-element>
+# type: scalar
+8
+
+
+
+# name: <cell-element>
+# type: scalar
+9
+
+
+
+# name: <cell-element>
+# type: scalar
+10
+
+
+
+# name: <cell-element>
+# type: scalar
+11
+
+
+
+# name: <cell-element>
+# type: scalar
+12
+
+
+
+# name: <cell-element>
+# type: scalar
+13
+
+
+
+# name: <cell-element>
+# type: scalar
+14
+
+
+
+# name: <cell-element>
+# type: scalar
+15
+
+
+
+# name: <cell-element>
+# type: scalar
+16
+
+
+
+# name: <cell-element>
+# type: scalar
+17
+
+
+
+# name: <cell-element>
+# type: scalar
+18
+
+
+
+# name: <cell-element>
+# type: scalar
+19
+
+
+
+# name: <cell-element>
+# type: scalar
+20
+
+
+
+# name: <cell-element>
+# type: scalar
+21
+
+
+
+# name: <cell-element>
+# type: scalar
+22
+
+
+
+# name: <cell-element>
+# type: scalar
+23
+
+
+
+# name: <cell-element>
+# type: scalar
+24
+
+
+
+
+
+# name: temperatura_media
+# type: cell
+# rows: 1
+# columns: 24
+# name: <cell-element>
+# type: scalar
+13.33333333333333
+
+
+
+# name: <cell-element>
+# type: scalar
+18.33333333333333
+
+
+
+# name: <cell-element>
+# type: scalar
+18.66666666666667
+
+
+
+# name: <cell-element>
+# type: scalar
+18.33333333333333
+
+
+
+# name: <cell-element>
+# type: scalar
+15
+
+
+
+# name: <cell-element>
+# type: scalar
+21
+
+
+
+# name: <cell-element>
+# type: scalar
+23
+
+
+
+# name: <cell-element>
+# type: scalar
+26.33333333333333
+
+
+
+# name: <cell-element>
+# type: scalar
+26.33333333333333
+
+
+
+# name: <cell-element>
+# type: scalar
+23
+
+
+
+# name: <cell-element>
+# type: scalar
+20
+
+
+
+# name: <cell-element>
+# type: scalar
+15
+
+
+
+# name: <cell-element>
+# type: scalar
+15.33333333333333
+
+
+
+# name: <cell-element>
+# type: scalar
+18.33333333333333
+
+
+
+# name: <cell-element>
+# type: scalar
+19
+
+
+
+# name: <cell-element>
+# type: scalar
+19.66666666666667
+
+
+
+# name: <cell-element>
+# type: scalar
+19.66666666666667
+
+
+
+# name: <cell-element>
+# type: scalar
+23
+
+
+
+# name: <cell-element>
+# type: scalar
+24.66666666666667
+
+
+
+# name: <cell-element>
+# type: scalar
+19.33333333333333
+
+
+
+# name: <cell-element>
+# type: scalar
+16.33333333333333
+
+
+
+# name: <cell-element>
+# type: scalar
+13.66666666666667
+
+
+
+# name: <cell-element>
+# type: scalar
+20
+
+
+
+# name: <cell-element>
+# type: scalar
+17.66666666666667
+
+
+
+
+
+# name: regolazione
+# type: cell
+# rows: 1
+# columns: 24
+# name: <cell-element>
+# type: scalar
+0.4552105666666666
+
+
+
+# name: <cell-element>
+# type: scalar
+0.9574354666666665
+
+
+
+# name: <cell-element>
+# type: scalar
+-1.978625266666668
+
+
+
+# name: <cell-element>
+# type: scalar
+-7.153378633333332
+
+
+
+# name: <cell-element>
+# type: scalar
+8.832585300000002
+
+
+
+# name: <cell-element>
+# type: scalar
+-0.967174
+
+
+
+# name: <cell-element>
+# type: scalar
+-1.029807399999999
+
+
+
+# name: <cell-element>
+# type: scalar
+-5.978854133333332
+
+
+
+# name: <cell-element>
+# type: scalar
+-4.268817133333332
+
+
+
+# name: <cell-element>
+# type: scalar
+-2.9442965
+
+
+
+# name: <cell-element>
+# type: scalar
+8.160588099999998
+
+
+
+# name: <cell-element>
+# type: scalar
+-2.217066900000001
+
+
+
+# name: <cell-element>
+# type: scalar
+7.211421566666667
+
+
+
+# name: <cell-element>
+# type: scalar
+0.1984010666666691
+
+
+
+# name: <cell-element>
+# type: scalar
+8.5787993
+
+
+
+# name: <cell-element>
+# type: scalar
+3.719120533333331
+
+
+
+# name: <cell-element>
+# type: scalar
+9.222780033333333
+
+
+
+# name: <cell-element>
+# type: scalar
+-7.4071642
+
+
+
+# name: <cell-element>
+# type: scalar
+3.818216033333332
+
+
+
+# name: <cell-element>
+# type: scalar
+-2.215392933333334
+
+
+
+# name: <cell-element>
+# type: scalar
+-4.949660033333332
+
+
+
+# name: <cell-element>
+# type: scalar
+12.35677513333333
+
+
+
+# name: <cell-element>
+# type: scalar
+8.072803199999999
+
+
+
+# name: <cell-element>
+# type: scalar
+4.853253733333332
+
+
+
+
+
+
+

@@ -17,4 +17,4 @@ function dati = acquisizione_dati_meteo()
     end
 
     fprintf('%d dati inseriti.\n', ii);
-% fine funzione acquisizione_dati_meteo
+end
